@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\player\items\crafting\shogun_warpack_backpackscene"
+	$translucent 1
+	$vertexcolor 1
+}
