@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/demo/sbox2014_demo_knight_helmet/sbox2014_demo_knight_helmet_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

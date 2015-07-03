@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/spy/xms_knife"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/scout/scout_gloves"
+	$translucent 1
+	$vertexcolor 1
+}

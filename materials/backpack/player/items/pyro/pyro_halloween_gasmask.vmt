@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/pyro/pyro_halloween_gasmask"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/medic/tw_coat_medic_necktie_large"
+	$translucent 1
+	$vertexcolor 1
+}

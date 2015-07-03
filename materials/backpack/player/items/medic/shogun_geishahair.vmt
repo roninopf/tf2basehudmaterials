@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/player/items/medic/shogun_geishahair"
+	$translucent 1
+	$vertexcolor 1
+}
