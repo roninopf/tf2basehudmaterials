@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/passtime/ball/passtime_ball_blu"
+	$bumpmap "models/passtime/ball/passtime_ball_normal_spec"
+	$normalmapalphaenvmapmask 1
+	"$lightwarptexture" "models\buildables\sentry1\Sentry1_lightwarp"
+}
