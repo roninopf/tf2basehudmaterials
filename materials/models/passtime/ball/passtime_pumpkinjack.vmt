@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/passtime/ball/passtime_pumpkinjack_diffuse"
+	$selfillum 1
+	$selfillummask "models/passtime/ball/passtime_pumpkinjack_emissive"
+	$bumpmap "models/passtime/ball/passtime_pumpkinjack_normal"
+	$envmapmask "models/passtime/ball/passtime_pumpkinjack_specular"
+	$normalmapalphaenvmapmask 1
+	"$lightwarptexture" "models\buildables\sentry1\Sentry1_lightwarp"
+}

@@ -10,9 +10,9 @@
 	"$rimlightexponent"		"4"
 	"$rimlightboost"		"0.500000"
 	"$blendtintbybasealpha"		"1"
-	"$blendtintcoloroverbase"		"0"
-	"$colortint_base"		"{ 34 35 34 }"
-	"$color2"		"{ 34 35 34 }"
+	"$blendtintcoloroverbase"		"1.000000"
+	"$colortint_base"		"{ 28 29 28 }"
+	"$color2"		"{ 28 29 28 }"
 	"$colortint_tmp"		"[0 0 0]"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
@@ -25,40 +25,40 @@
 	{
 		"$selfillum"		"0"
 	}
-	"Proxies"
+	"proxies"
 	{
 		"invis"
 		{
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
-			"animatedtextureframerate" 30
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"30"
 		}
 		"BurnLevel"
 		{
-			"resultVar" "$detailblendfactor"
+			"resultVar"		"$detailblendfactor"
 		}
 		"ItemTintColor"
 		{
-			"resultVar" "$colortint_tmp"
+			"resultVar"		"$colortint_tmp"
 		}
 		"SelectFirstIfNonZero"
 		{
-			"srcVar1"	"$colortint_tmp"
-			"srcVar2"	"$colortint_base"
-			"resultVar" "$color2"
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
 		}
 		"YellowLevel"
 		{
-			"resultVar" "$yellow"
+			"resultVar"		"$yellow"
 		}
 		"Multiply"
 		{
-			"srcVar1" "$color2"
-			"srcVar2" "$yellow"
-			"resultVar" "$color2"
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
 		}
 	}
 }

@@ -2,5 +2,4 @@
 {
 	"$basetexture"		"backpack/workshop/player/items/sniper/short2014_sniper_cargo_pants/short2014_sniper_cargo_pants_large"
 	"$translucent"		"1"
-	$vertexcolor 1
 }

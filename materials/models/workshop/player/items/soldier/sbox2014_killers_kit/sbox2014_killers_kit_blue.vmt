@@ -1,15 +1,16 @@
 "VertexLitGeneric"
 {
-	"$basetexture"		"models/workshop/player/items/soldier/sbox2014_killers_kit/sbox2014_killers_kit_blue_color"
+	"$basetexture"		"models/workshop/player/items/soldier/sbox2014_killers_kit/sbox2014_killers_kit_color_blue"
 	"$bumpmap"		"models/workshop/player/items/soldier/sbox2014_killers_kit/sbox2014_killers_kit_normal"
 	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
 	"$phong"		"1"
-	"$phongexponent"		"10.000000"
+	"$phongexponent"		"25"
 	"$phongboost"		"0.100000"
 	"$phongfresnelranges"		"[.25 .5 1]"
 	"$rimlight"		"1"
 	"$rimlightexponent"		"4"
-	"$rimlightboost"		"0.500000"
+	"$rimlightboost"		"2"
+	"$color2"		"{ 255 255 255 }"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
@@ -21,29 +22,29 @@
 	{
 		"$selfillum"		"0"
 	}
-	"Proxies"
+	"proxies"
 	{
 		"invis"
 		{
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
-			"animatedtextureframerate" 30
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"30"
 		}
 		"BurnLevel"
 		{
-			"resultVar" "$detailblendfactor"
+			"resultVar"		"$detailblendfactor"
 		}
 		"YellowLevel"
 		{
-			"resultVar" "$yellow"
+			"resultVar"		"$yellow"
 		}
 		"Equals"
 		{
-			"srcVar1" "$yellow"
-			"resultVar" "$color2"
+			"srcVar1"		"$yellow"
+			"resultVar"		"$color2"
 		}
 	}
 }
