@@ -1,18 +1,19 @@
 "VertexLitGeneric"
 {
 	"$basetexture"		"models/workshop/player/items/pyro/robo_pyro_birdcage/robo_pyro_birdcage_blue_color"
+	"$bumpmap"		"models/workshop/player/items/pyro/robo_pyro_birdcage/robo_pyro_birdcage_normal"
 	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
 	"$phong"		"1"
-	"$phongexponent"		"20.000000"
-	"$phongboost"		"1.000000"
+	"$phongexponent"		"30.000000"
+	"$phongboost"		"5.100000"
 	"$phongfresnelranges"		"[.25 .5 1]"
 	"$rimlight"		"1"
-	"$rimlightexponent"		"2.000000"
+	"$rimlightexponent"		"4"
 	"$rimlightboost"		"2"
 	"$blendtintbybasealpha"		"1"
 	"$blendtintcoloroverbase"		"0"
-	"$colortint_base"		"{ 57 99 124 }"
-	"$color2"		"{ 57 99 124 }"
+	"$colortint_base"		"{ 115 111 114 }"
+	"$color2"		"{ 115 111 114 }"
 	"$colortint_tmp"		"[0 0 0]"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
@@ -25,40 +26,40 @@
 	{
 		"$selfillum"		"0"
 	}
-	"Proxies"
+	"proxies"
 	{
 		"invis"
 		{
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
-			"animatedtextureframerate" 30
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"30"
 		}
 		"BurnLevel"
 		{
-			"resultVar" "$detailblendfactor"
+			"resultVar"		"$detailblendfactor"
 		}
 		"ItemTintColor"
 		{
-			"resultVar" "$colortint_tmp"
+			"resultVar"		"$colortint_tmp"
 		}
 		"SelectFirstIfNonZero"
 		{
-			"srcVar1"	"$colortint_tmp"
-			"srcVar2"	"$colortint_base"
-			"resultVar" "$color2"
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
 		}
 		"YellowLevel"
 		{
-			"resultVar" "$yellow"
+			"resultVar"		"$yellow"
 		}
 		"Multiply"
 		{
-			"srcVar1" "$color2"
-			"srcVar2" "$yellow"
-			"resultVar" "$color2"
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
 		}
 	}
 }

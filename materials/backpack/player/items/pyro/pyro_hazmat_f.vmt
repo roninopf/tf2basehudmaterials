@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "backpack/player/items/pyro/pyro_hazmat_f"
-	$translucent 1
-	$vertexcolor 1
-}

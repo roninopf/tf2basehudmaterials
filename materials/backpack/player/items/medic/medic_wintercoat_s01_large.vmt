@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "backpack/player/items/medic/medic_wintercoat_s01_large"
-	$translucent 1
-	$vertexcolor 1
-}

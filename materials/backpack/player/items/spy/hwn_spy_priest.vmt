@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "backpack/player/items/spy/hwn_spy_priest"
-	$translucent 1
-	$vertexcolor 1
-}

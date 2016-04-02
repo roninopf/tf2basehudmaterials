@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/crafting/cosmetic_case_tough_break"
+	"$bumpmap" "models/player/items/crafting/cosmetic_case_tough_break_normal" 
+
+	"$phong" "1"
+	//"$phongexponent" "45"
+	"$phongexponenttexture" "models/player/items/crafting/cosmetic_case_tough_break_exp"
+	"$phongboost" "4"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"	
+	"$phongfresnelranges"	"[.5 1 4]"
+//	"$basemapalphaphongmask" "1"
+	"$envmap" "cubemaps/cubemap_sheen002"
+	"$envmaptint" "[.93 .91 .48]"
+//	"$envmapcontrast" 10
+
+
+	// Rim lighting parameters
+	"$rimmask" 1
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "1"
+}

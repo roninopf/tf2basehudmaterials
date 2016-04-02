@@ -2,5 +2,4 @@
 {
 	"$basetexture"		"backpack/workshop/player/items/medic/fall2013_medic_wc_coat/fall2013_medic_wc_coat_large"
 	"$translucent"		"1"
-	$vertexcolor 1
 }

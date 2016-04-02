@@ -2,5 +2,4 @@
 {
 	"$basetexture"		"backpack/workshop/player/items/sniper/xms2013_sniper_beard/xms2013_sniper_beard_large"
 	"$translucent"		"1"
-	$vertexcolor 1
 }

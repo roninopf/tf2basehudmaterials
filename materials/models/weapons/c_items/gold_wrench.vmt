@@ -1,6 +1,6 @@
 "VertexlitGeneric"
 {
-	"$baseTexture" "models\weapons\v_wrench\v_wrench_sheet"
+	"$baseTexture" "models\weapons\c_models\c_wrench\c_wrench"
 	"$bumpmap" "models/effects/flat_normal" 
 	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 	"$detailscale" "5"

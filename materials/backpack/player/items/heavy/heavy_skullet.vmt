@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "backpack/player/items/heavy/heavy_skullet"
-	$translucent 1
-	$vertexcolor 1
-}

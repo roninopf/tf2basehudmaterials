@@ -2,16 +2,16 @@
 {
 	"$basetexture"		"models/workshop/player/items/soldier/robo_soldier_tyrantium/robo_soldier_tyrantium_color"
 	"$bumpmap"		"models/workshop/player/items/soldier/robo_soldier_tyrantium/robo_soldier_tyrantium_normal"
-	"$lightwarptexture"		"models/lightwarps/robot_lightwarp"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
 	"$phong"		"1"
-	"$phongexponent"		"2.500000"
-	"$phongboost"		"3.000000"
+	"$phongexponent"		"15.000000"
+	"$phongboost"		"6.000000"
 	"$phongfresnelranges"		"[.25 .5 1]"
 	"$rimlight"		"1"
-	"$rimlightexponent"		"2.000000"
-	"$rimlightboost"		"1.000000"
+	"$rimlightexponent"		"5.000000"
+	"$rimlightboost"		"3.000000"
 	"$blendtintbybasealpha"		"1"
-	"$blendtintcoloroverbase"		"1.000000"
+	"$blendtintcoloroverbase"		"0.500000"
 	"$colortint_base"		"{ 52 130 186 }"
 	"$color2"		"{ 52 130 186 }"
 	"$colortint_tmp"		"[0 0 0]"
@@ -26,40 +26,40 @@
 	{
 		"$selfillum"		"0"
 	}
-	"Proxies"
+	"proxies"
 	{
 		"invis"
 		{
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
-			"animatedtextureframerate" 30
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"30"
 		}
 		"BurnLevel"
 		{
-			"resultVar" "$detailblendfactor"
+			"resultVar"		"$detailblendfactor"
 		}
 		"ItemTintColor"
 		{
-			"resultVar" "$colortint_tmp"
+			"resultVar"		"$colortint_tmp"
 		}
 		"SelectFirstIfNonZero"
 		{
-			"srcVar1"	"$colortint_tmp"
-			"srcVar2"	"$colortint_base"
-			"resultVar" "$color2"
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
 		}
 		"YellowLevel"
 		{
-			"resultVar" "$yellow"
+			"resultVar"		"$yellow"
 		}
 		"Multiply"
 		{
-			"srcVar1" "$color2"
-			"srcVar2" "$yellow"
-			"resultVar" "$color2"
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
 		}
 	}
 }

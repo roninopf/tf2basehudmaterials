@@ -2,5 +2,4 @@
 {
 	"$basetexture"		"backpack/workshop/player/items/sniper/fall2013_brimfull_of_bullets/fall2013_brimfull_of_bullets_large"
 	"$translucent"		"1"
-	$vertexcolor 1
 }

@@ -2,5 +2,4 @@
 {
 	"$basetexture"		"backpack/workshop/player/items/all_class/jul13_sweet_shades/jul13_sweet_shades_large"
 	"$translucent"		"1"
-	$vertexcolor 1
 }

@@ -2,5 +2,4 @@
 {
 	"$basetexture"		"backpack/workshop/player/items/pyro/robo_pyro_birdcage/robo_pyro_birdcage_large"
 	"$translucent"		"1"
-	$vertexcolor 1
 }

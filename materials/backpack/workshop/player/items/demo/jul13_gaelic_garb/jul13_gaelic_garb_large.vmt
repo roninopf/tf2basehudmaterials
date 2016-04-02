@@ -2,5 +2,4 @@
 {
 	"$basetexture"		"backpack/workshop/player/items/demo/jul13_gaelic_garb/jul13_gaelic_garb_large"
 	"$translucent"		"1"
-	$vertexcolor 1
 }

@@ -2,5 +2,4 @@
 {
 	"$basetexture"		"backpack/workshop/player/items/spy/short2014_spy_ascot_vest/short2014_spy_ascot_vest_large"
 	"$translucent"		"1"
-	$vertexcolor 1
 }
